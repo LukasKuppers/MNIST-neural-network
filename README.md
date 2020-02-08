@@ -16,9 +16,12 @@ It might a bit small, but in the bottom left you can see the neural netwoks gues
 
 An example of drawing your own digits:
 
+<img src="images/MNIST_NNDemo2.gif" width="60%" height="60%">
+
 As you can see, the neural network performs a lot worse on user drawn digits (probably because they haven't been normalized like the digits in the MNIST dataset)
 
 ### technical details
 
 - supports any number of input and output nodes, as well of any number of hidden layers (and their respective amount of nodes)
-- 
+- uses the the feed forward algorithm to produce results, uses back propogation algorithm to train
+- uses sigmoid as an activation function
